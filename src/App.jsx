@@ -1,24 +1,14 @@
-
-import './App.css'
-
-import FunctionalComponentExample from './functionalComponentExample/FunctionalComponentExample'
+import React from 'react';
+import EventHandlingIndex from './03-event-handling';
+import { ToastContainer } from 'react-toastify';
 
 function App() {
-
   return (
-    <>
-      <div className="container">
-        <h1 className="text-primary">Hello Bootstrap in Vite + React!</h1>
-
-        {/* FunctionalComponentExample */}
-        <FunctionalComponentExample />
-      
-      </div>
-
-
-
-    </>
-  )
+    <div className="App">
+      <EventHandlingIndex />
+        <ToastContainer /> {/* Ye ek hi baar app me hona chahiye */}
+    </div>
+  );
 }
 
-export default App
+export default App;
