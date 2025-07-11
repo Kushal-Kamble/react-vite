@@ -18,8 +18,6 @@ State kya hoti hai? (Real-life example + code)
 🔸 Simple Definition:
 Props ka matlab hota hai component ko data dena — jaise function me parameters hote hain.
 
-
-
 🔸 Real-life Example:
 
 🔸 Real-life Example:

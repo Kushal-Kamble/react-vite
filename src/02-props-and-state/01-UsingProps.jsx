@@ -6,7 +6,7 @@ function WelcomeCard(props) {
     <div className="card shadow-sm mb-3">
       <div className="card-body">
         <h5 className="card-title">
-          Namaste {props.firstName} {props.lastName} ji 👋
+          Namaste {props.firstName} {props.lastName} seth 👋
         </h5>
         <p className="card-text mb-1"><strong>Designation:</strong> {props.designation}</p>
         <p className="card-text mb-1"><strong>Age:</strong> {props.age} years</p>
@@ -26,9 +26,9 @@ function UsingPropsExample() {
       <div className="row">
         <div className="col-md-4">
           <WelcomeCard
-            firstName="Ramesh"
-            lastName="Sharma"
-            designation="Software Engineer"
+            firstName="Vishal"
+            lastName="Kamble"
+            designation="Goverment Officer"
             age="25"
             city="Mumbai"
             education="B.Tech (IT)"
@@ -37,8 +37,8 @@ function UsingPropsExample() {
         <div className="col-md-4">
           <WelcomeCard
             firstName="Kushal"
-            lastName="Patil"
-            designation="Frontend Developer"
+            lastName="Kamble"
+            designation="Software Engineer"
             age="22"
             city="Pune"
             education="Diploma (Computer)"
@@ -46,9 +46,9 @@ function UsingPropsExample() {
         </div>
         <div className="col-md-4">
           <WelcomeCard
-            firstName="Geeta"
-            lastName="Verma"
-            designation="UI/UX Designer"
+            firstName="Ashwini"
+            lastName="Kamble"
+            designation="English Learner"
             age="23"
             city="Delhi"
             education="B.Des (Design)"

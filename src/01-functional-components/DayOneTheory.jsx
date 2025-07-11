@@ -104,9 +104,7 @@ React ke andar jab koi component ya UI banana hota hai, to wo JSX return karta h
 
 
 🧱 Step 1: React App Setup (Vite Recommended)
-bash
-Copy
-Edit
+
 npm create vite@latest react-learning-app --template react
 cd react-learning-app
 npm install
@@ -127,11 +125,6 @@ Reusability	Components can be reused like HTML tags
 
 
 ***********************************************************
-
-
-
-
-
 
 
 */
