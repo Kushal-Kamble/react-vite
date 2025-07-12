@@ -32,7 +32,7 @@ React me Functional Component ek normal JavaScript function hota hai jo ek UI (J
 🔸 Real-Life Example:
 Socho tum ek "Namaste Card" print karte ho har guest ke liye:
 
-Namaste Ramesh Ji!
+Namaste Ramesh Ji!  
 Namaste Suresh Ji!
 Tum ek template bana loge:
 
@@ -106,7 +106,7 @@ React ke andar jab koi component ya UI banana hota hai, to wo JSX return karta h
 🧱 Step 1: React App Setup (Vite Recommended)
 
 npm create vite@latest react-learning-app --template react
-cd react-learning-app
+cd my-react-app
 npm install
 npm run dev
 

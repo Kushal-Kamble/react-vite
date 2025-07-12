@@ -58,7 +58,7 @@ function SimpleForm() {
     }
 
     // ✅ All good
-    toast.success(`✅ Welcome ${formData.name}!`);
+    toast.success(`Welcome ${formData.name}!`);
 
     // 🔄 Reset form
     setFormData({ name: '', email: '' });

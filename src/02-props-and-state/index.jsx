@@ -8,7 +8,7 @@ function PropsAndStateIndex() {
 
         <div className="container mt-4"><h1>Day 2: Props & State Examples</h1>
          <UsingPropsExample />
-      <StateBasicsExample />
+         <StateBasicsExample />
         </div>
       
      

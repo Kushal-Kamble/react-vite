@@ -1,0 +1,27 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "roll": "MIT9856262103",
+      "name": "Kushal Kamble",
+      "class": "10th",
+      "subjects": [
+        { "name": "Math", "marks": 85, "assignmentsDone": 3 },
+        { "name": "Science", "marks": 78, "assignmentsDone": 2 },
+        { "name": "English", "marks": 92, "assignmentsDone": 3 }
+      ]
+    },
+    {
+      "id": 2,
+      "roll": "MIT7643501205",
+      "name": "Raj Marathe",
+      "class": "12th",
+      "subjects": [
+        { "name": "Math", "marks": 72, "assignmentsDone": 1 },
+        { "name": "Physics", "marks": 65, "assignmentsDone": 2 },
+        { "name": "Chemistry", "marks": 69, "assignmentsDone": 1 }
+      ]
+    }
+  ]
+}
+
