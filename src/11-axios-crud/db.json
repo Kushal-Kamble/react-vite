@@ -1,0 +1,17 @@
+{
+  "students": [
+    {
+      "id": "1",
+      "name": "Kushal Kamble",
+      "email": "kushal@example.com",
+      "phone": "9876543210"
+    },
+    {
+      "id": "f34e",
+      "name": "Adhar Card",
+      "email": "kushal.kamble@mitsde.com",
+      "phone": "sssdsdsdsd",
+      "city": "pune"
+    }
+  ]
+}

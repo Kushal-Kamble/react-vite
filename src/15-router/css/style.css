@@ -1,0 +1,145 @@
+/* ====== Main Theme Colors ====== */
+:root {
+  --primary-color: #ff9f43;
+  --bg-light: #fef4d6;
+  --bg-page: #fbfafb;
+  --text-gray: #bdc2c6;
+  --shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* ====== Reset & Base ====== */
+body {
+  background-color: var(--bg-page);
+  font-family: 'Segoe UI', sans-serif;
+  color: #333;
+}
+
+/* ====== Navbar ====== */
+.navbar {
+  box-shadow: var(--shadow);
+}
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.4rem;
+  letter-spacing: 0.5px;
+}
+.nav-link {
+  font-weight: 500;
+  transition: 0.3s;
+}
+.nav-link:hover {
+  color: #212529 !important;
+  background-color: #ffc16b;
+  border-radius: 5px;
+}
+
+/* ====== Buttons ====== */
+.btn-warning {
+  background-color: var(--primary-color);
+  border: none;
+  font-weight: 500;
+  transition: 0.3s ease-in-out;
+}
+.btn-warning:hover {
+  background-color: #e08836;
+  box-shadow: 0 4px 8px rgba(255, 159, 67, 0.3);
+}
+
+/* ====== Form Box ====== */
+.form-container {
+  background-color: var(--bg-light);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: var(--shadow);
+  transition: transform 0.3s ease;
+}
+.form-container:hover {
+  transform: translateY(-5px);
+}
+
+/* ====== Hero Image ====== */
+.banner-img {
+  max-width: 100%;
+  border-radius: 10px;
+  box-shadow: var(--shadow);
+}
+
+/* ====== Section Titles ====== */
+.section-title {
+  font-size: 2rem;
+  font-weight: 600;
+  color: var(--primary-color);
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+
+.section-title {
+  font-size: 2rem;
+  font-weight: 600;
+  color: var(--primary-color);
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.bg-light {
+  background-color: var(--bg-light) !important;
+}
+
+.accordion-button {
+  font-weight: 500;
+  background-color: var(--bg-light);
+  color: #333;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #ff9f43;
+  color: #fff;
+}
+
+
+.card-img-top {
+  height: 230px;
+  object-fit: cover;
+}
+
+.card-body {
+  padding: 1rem;
+}
+
+.card-text {
+  font-size: 0.95rem;
+  font-style: italic;
+  color: #555;
+}
+.form-container {
+  background-color: var(--bg-light);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: var(--shadow);
+}
+
+.form-control,
+textarea {
+  border-radius: 6px;
+}
+
+.card-img-top {
+  object-fit: cover;
+  height: 260px;
+}
+
+.card-title {
+  font-weight: 600;
+}
+.scroll-top-btn {
+  position: fixed;
+  bottom: 30px;
+  right: 25px;
+  z-index: 999;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  font-size: 20px;
+  font-weight: bold;
+}
