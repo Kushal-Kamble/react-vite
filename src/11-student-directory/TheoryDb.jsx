@@ -1,0 +1,84 @@
+/*
+
+
+✅ Step 1: JSON Server Setup
+
+1️⃣ Create db.json in your root directory:
+
+db.json
+
+json
+Copy
+Edit
+{
+  "students": [
+    {
+      "id": 1,
+      "name": "Kushal Kamble",
+      "email": "kushal@example.com",
+      "phone": "9876543210",
+      "website": "kushalkamble.dev",
+      "address": {
+        "street": "Kulas Light",
+        "city": "Gwenborough"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Raj Marathe",
+      "email": "raj@example.com",
+      "phone": "9123456780",
+      "website": "rajmarathe.dev",
+      "address": {
+        "street": "MG Road",
+        "city": "Pune"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Shravani Suryavanshi",
+      "email": "shravani@example.com",
+      "phone": "9812345678",
+      "website": "shravani.dev",
+      "address": {
+        "street": "FC Road",
+        "city": "Mumbai"
+      }
+    },
+    {
+      "id": 4,
+      "name": "Umesh Ghatale",
+      "email": "umesh@example.com",
+      "phone": "9812340011",
+      "website": "umesh.dev",
+      "address": {
+        "street": "JM Road",
+        "city": "Nagpur"
+      }
+    },
+    {
+      "id": 5,
+      "name": "Nitin Zadpe",
+      "email": "nitin@example.com",
+      "phone": "9012349876",
+      "website": "nitinz.dev",
+      "address": {
+        "street": "Deccan",
+        "city": "Pune"
+      }
+    }
+  ]
+}
+2️⃣ Start the JSON Server:
+
+Terminal command:
+
+bash
+Copy
+Edit
+json-server --watch db.json --port 5000
+Check API:
+http://localhost:5000/students
+
+
+*/

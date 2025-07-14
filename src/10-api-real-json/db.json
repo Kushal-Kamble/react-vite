@@ -1,0 +1,115 @@
+{
+    "students": [
+      {
+        "id": 1,
+        "name": "Kushal Kamble",
+        "email": "kushal@example.com",
+        "phone": "9876543210",
+        "website": "kushalkamble.dev",
+        "address": {
+          "street": "Kulas Light",
+          "city": "Gwenborough"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Raj Marathe",
+        "email": "rajmarathe@example.com",
+        "phone": "9876501122",
+        "website": "rajmarathe.me",
+        "address": {
+          "street": "Lake View",
+          "city": "Pune"
+        }
+      },
+      {
+        "id": 3,
+        "name": "Shravani Suryavanshi",
+        "email": "shravani@example.com",
+        "phone": "9876511133",
+        "website": "shravani.tech",
+        "address": {
+          "street": "Mango Street",
+          "city": "Mumbai"
+        }
+      },
+      {
+        "id": 4,
+        "name": "Suraj Awate",
+        "email": "suraj@example.com",
+        "phone": "9876522233",
+        "website": "surajawate.com",
+        "address": {
+          "street": "River Park",
+          "city": "Nashik"
+        }
+      },
+      {
+        "id": 5,
+        "name": "Mansi Bhokardole",
+        "email": "mansi@example.com",
+        "phone": "9876533344",
+        "website": "mansibhokardole.dev",
+        "address": {
+          "street": "Rose Villa",
+          "city": "Nagpur"
+        }
+      },
+      {
+        "id": 6,
+        "name": "Soham Joshi",
+        "email": "soham@example.com",
+        "phone": "9876545566",
+        "website": "sohamjoshi.dev",
+        "address": {
+          "street": "Tech Lane",
+          "city": "Aurangabad"
+        }
+      },
+      {
+        "id": 7,
+        "name": "Reshma Badukale",
+        "email": "reshma@example.com",
+        "phone": "9876556677",
+        "website": "reshma.dev",
+        "address": {
+          "street": "Sapphire Street",
+          "city": "Satara"
+        }
+      },
+      {
+        "id": 8,
+        "name": "Umesh Ghatale",
+        "email": "umesh@example.com",
+        "phone": "9876567788",
+        "website": "umeshghatale.com",
+        "address": {
+          "street": "Garden Road",
+          "city": "Kolhapur"
+        }
+      },
+      {
+        "id": 9,
+        "name": "Sachin Sakhare",
+        "email": "sachin@example.com",
+        "phone": "9876578899",
+        "website": "sachinsakhare.in",
+        "address": {
+          "street": "Ocean View",
+          "city": "Latur"
+        }
+      },
+      {
+        "id": 10,
+        "name": "Piyu",
+        "email": "Piyu@example.com",
+        "phone": "9876589900",
+        "website": "Piyu.dev",
+        "address": {
+          "street": "Golden Hills",
+          "city": "Beed"
+        }
+      }
+    ]
+  }
+  
