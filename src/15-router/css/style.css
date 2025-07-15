@@ -13,6 +13,55 @@ body {
   font-family: 'Segoe UI', sans-serif;
   color: #333;
 }
+.home-section {
+  background-color: #0a0a0a;
+}
+/* Home Section Background */
+.home-section {
+  background-image: url('https://i.ibb.co/9qYjtbT/white-brick-wall.jpg');
+  background-size: cover;              /* 👈 Full coverage */
+  background-position: center center;  /* 👈 Centered focus */
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  padding: 80px 20px;
+}
+
+
+/* Admission Form Box */
+.form-container {
+  background-color: #f26522; /* orange */
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: var(--shadow);
+  color: #fff;
+}
+.form-container input,
+.form-container select {
+  margin-bottom: 10px;
+}
+.form-container .btn {
+  background-color: #333;
+  color: #fff;
+  font-weight: 600;
+  width: 100%;
+  border: none;
+}
+.form-container .btn:hover {
+  background-color: #000;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .home-section {
+    text-align: center;
+    padding: 50px 10px;
+  }
+
+  .form-container {
+    margin-top: 20px;
+  }
+}
+
 
 /* ====== Navbar ====== */
 .navbar {
@@ -142,4 +191,29 @@ textarea {
   height: 45px;
   font-size: 20px;
   font-weight: bold;
+}
+
+
+.text-orange {
+  color: #ff9f43;
+}
+.course-card {
+  border-radius: 15px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+.course-card:hover {
+  transform: translateY(-5px);
+}
+.course-card .card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+.course-card .btn-warning {
+  background-color: #ff9f43;
+  border: none;
+  color: #212428;
+}
+.course-card .btn-warning:hover {
+  background-color: #ffa94d;
 }

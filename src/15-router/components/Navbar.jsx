@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import courses from '../data/courses';
 
 function Navbar() {
   return (
@@ -10,13 +11,39 @@ function Navbar() {
         </button>
         <div className="collapse navbar-collapse" id="menu">
           <ul className="navbar-nav ms-auto">
-            <li className="nav-item"><Link className="nav-link text-white fw-semibold" to="/">Home</Link></li>
-            <li className="nav-item"><Link className="nav-link text-white fw-semibold" to="/courses">Courses</Link></li>
-            <li className="nav-item"><Link className="nav-link text-white fw-semibold" to="/contact">Contact</Link></li>
-            <li className="nav-item"><Link className="nav-link text-white fw-semibold" to="/faq">FAQ</Link></li>
-            <li className="nav-item"><Link className="nav-link text-white fw-semibold" to="/testimonial">Testimonials</Link></li>
-            <li className="nav-item"><Link className="nav-link text-white fw-semibold" to="/faculty">Faculty</Link></li>
-            
+
+            <li className="nav-item">
+              <Link className="nav-link text-white fw-semibold" to="/">Home</Link>
+            </li>
+
+            <li className="nav-item dropdown">
+              <a className="nav-link dropdown-toggle text-white fw-semibold" href="#" role="button" data-bs-toggle="dropdown">
+                Courses
+              </a>
+              <ul className="dropdown-menu">
+                {courses.map((course) => (
+                  <li key={course.id}>
+                    <Link className="dropdown-item" to={`/course/${course.id}`}>
+                      {course.title}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </li>
+
+            <li className="nav-item">
+              <Link className="nav-link text-white fw-semibold" to="/contact">Contact</Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link text-white fw-semibold" to="/faq">FAQ</Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link text-white fw-semibold" to="/testimonial">Testimonials</Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link text-white fw-semibold" to="/faculty">Faculty</Link>
+            </li>
+
           </ul>
         </div>
       </div>
